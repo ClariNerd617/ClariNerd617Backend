@@ -1,0 +1,20 @@
+[project]
+name = "MetPy_Backend"
+version = "0.0.1"
+description = "Uses MetPy and boto3 to generate and store weather maps in S3, keeping the archive controlled using FIFO approach."
+authors = [
+    {name = "Goodwin, Rolf H (ClariNerd617)", email = "HGoodwin617@gmail.com"},
+]
+dependencies = [
+    "metpy>=1.5.1",
+    "pytest>=7.4.0",
+    "mypy>=1.4.1",
+    "flake8>=6.0.0",
+    "black>=23.7.0",
+    "boto3>=1.28.11",
+    "httpx>=0.24.1",
+]
+requires-python = ">=3.11"
+readme = "README.md"
+license = {text = "MIT"}
+
