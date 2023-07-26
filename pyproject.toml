@@ -1,0 +1,14 @@
+[project]
+name = ""
+version = ""
+description = ""
+authors = [
+    {name = "Goodwin, Rolf H (ClariNerd617)", email = "HGoodwin617@gmail.com"},
+]
+dependencies = [
+    "metpy>=1.5.1",
+]
+requires-python = ">=3.11"
+readme = "README.md"
+license = {text = "MIT"}
+
